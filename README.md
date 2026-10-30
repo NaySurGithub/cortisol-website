@@ -11,7 +11,11 @@ Website and launcher downloads for the Cortisol Minecraft Bedrock client.
 | Windows | Windows x64 and Minecraft for Windows 26.60 | [Cortisol-Windows.exe](https://github.com/NaySurGithub/cortisol-website/raw/refs/heads/main/downloads/Cortisol-Windows.exe) |
 | macOS | Apple silicon Mac with **Minecraft for Windows 26.60** running through [Blockintosh](https://blockintosh.multision.dev/) | [Cortisol-macOS.zip](https://github.com/NaySurGithub/cortisol-website/raw/refs/heads/main/downloads/Cortisol-macOS.zip) |
 
-These are preview builds. The macOS launcher uses the Windows edition through
+These are preview builds. The macOS app bundle has an ad-hoc signature verified
+before packaging and after ZIP extraction. It is **not Apple-notarized**, so this
+does not guarantee acceptance by Gatekeeper on a downloaded copy.
+
+The macOS launcher uses the Windows edition through
 Blockintosh, rather than Minecraft Java or the iOS edition.
 
 ## Getting started
