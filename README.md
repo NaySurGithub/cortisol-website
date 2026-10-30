@@ -11,12 +11,7 @@ Website and launcher downloads for the Cortisol Minecraft Bedrock client.
 | Windows | Windows x64 and Minecraft for Windows 26.60 | [Cortisol-Windows.exe](https://github.com/NaySurGithub/cortisol-website/raw/refs/heads/main/downloads/Cortisol-Windows.exe) |
 | macOS | Apple silicon Mac with **Minecraft for Windows 26.60** running through [Blockintosh](https://blockintosh.multision.dev/) | [Cortisol-macOS.zip](https://github.com/NaySurGithub/cortisol-website/raw/refs/heads/main/downloads/Cortisol-macOS.zip) |
 
-These are preview builds. The macOS app bundle has an ad-hoc signature verified
-before packaging and after ZIP extraction. It is **not Apple-notarized**, so this
-does not guarantee acceptance by Gatekeeper on a downloaded copy.
-
-The macOS launcher uses the Windows edition through
-Blockintosh, rather than Minecraft Java or the iOS edition.
+These are preview builds. The macOS app is not Apple-notarized.
 
 ## Getting started
 
@@ -25,13 +20,6 @@ Blockintosh, rather than Minecraft Java or the iOS edition.
 3. Start Minecraft for Windows, using Blockintosh on macOS.
 4. Click **Inject** in the launcher. Press **Right Shift** in-game to open Cortisol.
 5. Use **Uninject** in the launcher to unload the client.
-
-The Mac archive includes its matching Windows helper and encrypted payload. Keep
-the app bundle intact; the payload and helper must come from the same build.
-
-Inject prepares Chams and Shader ESP materials automatically on both platforms,
-preserving Minecraft's stock materials. No Python, Lazurite or shader compiler
-installation is needed.
 
 ## Website development
 
@@ -61,9 +49,6 @@ downloads/          Launcher builds, file sizes and SHA-256 checksums
 .nojekyll           Serve the static files without Jekyll processing
 ```
 
-This repository contains the website and packaged launchers. The native client's
-source and build tools are maintained separately.
-
 ## Updating downloads
 
 Replace the launchers in `downloads/`, keeping the filenames used by the page.
@@ -92,13 +77,11 @@ GitHub Pages serves the repository root from the `main` branch at:
 
 **https://naysurgithub.github.io/cortisol-website/**
 
-Pushing changes to `main` triggers a new Pages deployment. Website changes do not
-rebuild or update the bundled launcher binaries.
+Pushing changes to `main` triggers a new Pages deployment.
 
 ## Credits
 
 - Inter font: SIL Open Font License 1.1, included in [`assets/Inter-OFL.txt`](assets/Inter-OFL.txt).
 - Cortisol Sans, used in the menu render: SIL Open Font License 1.1, included in [`assets/FONT-LICENSE.txt`](assets/FONT-LICENSE.txt).
-- The interface preview is rendered from Cortisol's actual menu code. The character illustration is original generated artwork.
 
 Cortisol is not affiliated with Mojang or Microsoft.
