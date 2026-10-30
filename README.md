@@ -29,6 +29,10 @@ Blockintosh, rather than Minecraft Java or the iOS edition.
 The Mac archive includes its matching Windows helper and encrypted payload. Keep
 the app bundle intact; the payload and helper must come from the same build.
 
+Inject prepares Chams and Shader ESP materials automatically on both platforms,
+preserving Minecraft's stock materials. No Python, Lazurite or shader compiler
+installation is needed.
+
 ## Website development
 
 The site is plain HTML, CSS and JavaScript. No package installation or build step

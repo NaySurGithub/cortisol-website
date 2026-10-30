@@ -1,14 +1,14 @@
 {
   "windows": {
     "file": "Cortisol-Windows.exe",
-    "bytes": 25018446,
-    "size": "23.9 MB",
-    "sha256": "3841b553cede4611b93e659fef0738c2dc7b43669c3a813c8cde7b25770c221f"
+    "bytes": 25908684,
+    "size": "24.7 MB",
+    "sha256": "4228799afaf9f704a84d445bd509c92318d8fba1b859447f750a17bdae3d93b2"
   },
   "macos": {
     "file": "Cortisol-macOS.zip",
-    "bytes": 12195851,
-    "size": "11.6 MB",
-    "sha256": "29f97fe68418c84f04451688880f75ea733d1b82e3787333b7bcc3196702b360"
+    "bytes": 12382744,
+    "size": "11.8 MB",
+    "sha256": "2ae2bbf9f1022c1ce1fed9b53f1a3bc03e33c6527ad243c8ea096ec7a4407b61"
   }
 }
